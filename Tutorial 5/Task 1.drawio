@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T09:14:03.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="nctsobePFpNWtlSyDrf5" version="15.8.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-28T09:14:28.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="DSXsLTrA41MW_LZKANyq" version="15.8.6" type="github" pages="2">
   <diagram id="wO-Hv5fYxEqQqqzBDX1r" name="attempt 1">
     <mxGraphModel dx="474" dy="251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="COrSosFsCR_IvFb1Dk6T-63" value="manager_id {FK}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="COrSosFsCR_IvFb1Dk6T-5" vertex="1">
           <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cVLQ0Kw1pSvqlfenQj3H-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="COrSosFsCR_IvFb1Dk6T-5" source="COrSosFsCR_IvFb1Dk6T-5" target="COrSosFsCR_IvFb1Dk6T-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="COrSosFsCR_IvFb1Dk6T-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" target="COrSosFsCR_IvFb1Dk6T-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -121,20 +124,10 @@
           <mxGeometry x="630" y="45" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="COrSosFsCR_IvFb1Dk6T-69" value="0..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="486" y="90" width="60" height="30" as="geometry" />
+          <mxGeometry x="440" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="COrSosFsCR_IvFb1Dk6T-70" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="590" y="210" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="COrSosFsCR_IvFb1Dk6T-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.167;entryY=0.033;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" parent="1" source="COrSosFsCR_IvFb1Dk6T-5" target="COrSosFsCR_IvFb1Dk6T-70" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="531" y="70" />
-              <mxPoint x="680" y="70" />
-              <mxPoint x="680" y="210" />
-              <mxPoint x="600" y="210" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="610" y="226" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
