@@ -3,7 +3,7 @@
 
 <marksreport>
   <module moduleCode="MOD101">
-    <modulename>Database Systems</modulename>
+    Database Systems</modulename>
     <moduleleader>Francky Bandini</moduleleader>
     <student studentId = "21051">
       <fname>Jim</fname>
