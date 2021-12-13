@@ -3,12 +3,7 @@
    <xsl:template match="/">
       <html>
          <body>
-            <center>
-               <h2>
-                  <i>Westmuni</i>
-                  Marks Report - List All Modules
-               </h2>
-            </center>
+            <center><h2><i>Westmuni</i>Marks Report - List All Modules</h2></center>
             <center>
                <xsl:for-each select="marksreport/module">
                   <table border="1" bordercolor="#000000">
